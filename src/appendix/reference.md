@@ -9,7 +9,6 @@
 * [【已解决】mongoimport/mongoexport和mongodump/mongorestore的区别](http://www.crifan.com/mongoimport_mongoexport_vs_mongodump_mongorestore)
 * 【已解决】从MongoDB数据库中导出数据
 * 【已解决】把json数据恢复导入到本地MongoDB数据库的某个集合中
-* 【记录】用Flask实现测评系统的后端
 * 【已解决】重新将本地MongoDB数据storybook导入到在线环境
 * 【记录】把在线的dev的MongoDB备份后恢复到本地
 * 【已解决】PySpider项目迁移到别的电脑重新继续运行
@@ -22,7 +21,6 @@
 * 【已解决】Python的MongoDB的Pymongo中实现多个正则条件的组合搜索
 * 【已解决】Python的MongoDB的pymongo中搜索查询支持regex正则和多个条件组合和字段嵌套和列表字段
 * 【已解决】Python的MongoDB的Pymongo中搜索列表字段中是否包含某个列表值中任何一个以及正则匹配部分内容
-* 【已解决】PyCharm连接远程添加security的authorization的MongoDB出错：com.mongodb.MongoCommandExceptions: Command failed with error 13
 * 
 * [【已解决】Mongo中让搜索支持不区分大小写](http://www.crifan.com/mongodb_search_support_case_insensitive)
 * [【已解决】Pymongo出错：pymongo.errors.OperationFailure: Authentication failed](https://www.crifan.com/pymongo_errors_operationfailure_authentication_failed)
@@ -47,13 +45,12 @@
 * [【已解决】本地mongo shell中连接远程加了权限控制的mongoDB](http://www.crifan.com/local_mongodb_shell_connect_remote_added_authority_mongodb)
 * [【已解决】如何允许外网IP远程访问MongoDB数据库](http://www.crifan.com/how_set_allow_external_ip_access_mongodb_database_for_aliyun)
 * [【已解决】连接远程mongoDB失败：Failed to connect to after 5000ms milliseconds giving up](http://www.crifan.com/connect_remote_mongodb_failed_to_connect_to_after_5000ms_milliseconds_giving_up)
-* [【已解决】PyCharm连接远程添加security的authorization的MongoDB出错：com.mongodb.MongoCommandExceptions: Command failed with error 13](http://www.crifan.com/pycharm_connect_remote_security_authorization_mongodb_error_com_mongodb_mongocommandexceptions_command_failed_with_error_13)
 * [【已解决】阿里云ECS服务器中已有的MongoDB的用户名密码和端口](http://www.crifan.com/aliyun_ecs_server_existed_mongodb_username_password_port)
 * [【已解决】PyMongo中GridFS的exists始终检测不到文件已存在](http://www.crifan.com/pymongo_use_gridfs_exists_check_always_can_not_file_already_existed)
 * [【已解决】安装MongoDB Compass去图形化查看Mongo数据 – 在路上](https://www.crifan.com/install_mongodb_compass_graphic_show_data/)
 * 
 * [How to Import .bson file format on mongodb - Stack Overflow](https://stackoverflow.com/questions/6770498/how-to-import-bson-file-format-on-mongodb)
-* 
+* [最佳的MongoDB客户端管理工具 - chszs的专栏 - CSDN博客](http://blog.csdn.net/chszs/article/details/51348248)
 * [Working with MongoDB in Visual Studio Code](https://code.visualstudio.com/docs/azure/mongodb)
 * [文档数据库_文档型数据库_AWS 数据库服务 - AWS 云服务](https://aws.amazon.com/cn/nosql/document/)
 * [Top 12 NoSQL Document Databases in 2020 - Reviews, Features, Pricing, Comparison](https://www.predictiveanalyticstoday.com/top-nosql-document-databases/)
@@ -75,4 +72,35 @@
 * [mongodb - How do you tell Mongo to sort a collection before limiting the results? - Stack Overflow](https://stackoverflow.com/questions/17509025/how-do-you-tell-mongo-to-sort-a-collection-before-limiting-the-results)
 * [MongoDB find() Method: Introduction & Query Examples | Studio 3T](https://studio3t.com/knowledge-base/articles/mongodb-find-method/)
 * [MongoDB Python Drivers — MongoDB Drivers](https://docs.mongodb.com/drivers/python)
+* [初尝node.js + Express + MongoDB + Vue.js 项目构建(2) - 个人文章 - SegmentFault](https://segmentfault.com/a/1190000009336888)
+* 
+
+## TODO 待整理
+
+* [【已解决】mongo命令行中如何删除文件](http://www.crifan.com/mongo_command_how_delete_file)
+* [【已解决】把本地的音频字幕等数据存储到远程服务器的MongoDB数据库中](http://www.crifan.com/local_audio_subtitle_file_store_remote_server_mongodb_database)
+* [【已解决】mongo中给普通数据库gridfs创建root的角色失败：Error couldn't add user No role named root@gridfs](http://www.crifan.com/mongodb_create_normal_gridfs_root_user_fail_error_couldnt_add_user_no_role_named_root_gridfs)
+* [【已解决】本地mongo shell中连接远程加了权限控制的mongoDB](http://www.crifan.com/local_mongodb_shell_connect_remote_added_authority_mongodb)
+* [【已解决】阿里云ECS服务器中已有的MongoDB的用户名密码和端口](http://www.crifan.com/aliyun_ecs_server_existed_mongodb_username_password_port)
+* [【未解决】尝试用Mongo Management Studio去实现导入文件到Mongo的gridfs且带metadata信息](http://www.crifan.com/trial_mongo_management_studio_import_file_to_gridfs_with_metadata_info)
+* [【已解决】确认服务器中MongoDB数据库是否有或已开启记录登录的日志](http://www.crifan.com/check_whether_mongodb_database_enabled_login_logging)
+* [【已解决】确认服务器中MongoDB数据库是否有或已开启记录登录的日志](http://www.crifan.com/check_whether_mongodb_database_enabled_login_logging)
+* [【已解决】MongoDB开启访问控制后currentOp出错：not authorized on admin to execute command](http://www.crifan.com/mongodb_enable_access_control_currentop_not_authorized_on_admin_to_execute_command)
+* 【已解决】给MongoDB数据库新建用户和权限
+* 【已解决】修改MongoDB的默认端口号27017为别的端口
+* [【已解决】mongo的shell中find返回多个有限个数的结果](http://www.crifan.com/mongodb_mongo_shell_find_limit_return_number)
+* [【已解决】公司Wi-Fi更换运营商导致IP变化导致远程Mongo连不上](http://www.crifan.com/company_wifi_ip_change_cause_remote_mongodb_connect_fail)
+* [【已解决】连接远程mongoDB失败：Failed to connect to after 5000ms milliseconds giving up](http://www.crifan.com/connect_remote_mongodb_failed_to_connect_to_after_5000ms_milliseconds_giving_up)
+* [【已解决】pymongo中用MongoClient去连接远程加了权限控制的mongoDB](http://www.crifan.com/pymongo_use_mongoclient_connect_remote_added_authorization_mongodb)
+* [【已解决】用PyCharm的MongoDB插件连接远程MongoDB数据库](http://www.crifan.com/pycharm_mongodb_plugin_connect_remote_mongodb_database)
+* [【已解决】MongoDB的用户的密码中包含@如何写URI](http://www.crifan.com/mongodb_username_password_contain_at_how_write_uri)
+* [【已解决】给MongoDB限制IP访问](http://www.crifan.com/mongodb_add_restrict_ip_access)
+* 【已解决】远程MongoDB新增dialog数据库并新增对应用户和权限
+* [【已解决】PyCharm连接远程添加security的authorization的MongoDB出错：com.mongodb.MongoCommandExceptions: Command failed with error 13](http://www.crifan.com/pycharm_connect_remote_security_authorization_mongodb_error_com_mongodb_mongocommandexceptions_command_failed_with_error_13)
+* [【已解决】Flask-PyMongo出错：RuntimeError Working outside of application context](http://www.crifan.com/flask_pymongo_runtimeerror_working_outside_of_application_context)
+* [【已解决】pymongo的count()出错：pymongo.errors.ServerSelectionTimeoutError timed out](http://www.crifan.com/pymongo_count_pymongo_errors_serverselectiontimeouterror_timed_out)
+* [【记录】通过阿里云ECS服务器安全组限制访问mongo的IP和端口](http://www.crifan.com/aliyun_ecs_security_group_limit_access_mongodb_ip_and_port)
+* [【已解决】用PyCharm写Python的MongoDB代码并调试](http://www.crifan.com/pycharm_write_python_mongodb_code_and_debug)
+* [【已解决】配置mongod以允许内网其他服务器访问mongo服务](http://www.crifan.com/config_mongod_allow_internal_network_other_server_access_mongo_service)
+* [【已解决】PyCharm中安装MongoDB的插件：mongo4idea](http://www.crifan.com/pycharm_install_mongo_plugin_mongo4idea)
 * 

@@ -8,7 +8,7 @@
 
 之前某次去恢复数据，故意没有删除本地之前已有（同样但是旧的）数据：
 
-![mongdb_compass_existing_data](../assets/img/mongdb_compass_existing_data.png)
+![mongodb_compass_existing_data](../assets/img/mongodb_compass_existing_data.png)
 
 看看导入能否直接覆盖，结果由于ID重复而报错，覆盖失败：
 

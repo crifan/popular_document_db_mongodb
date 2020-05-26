@@ -28,7 +28,6 @@
   * [如何更新数据](summary_note/update_data.md)
   * [高级搜索](summary_note/advance_research.md)
   * [GridFS存储文件](summary_note/gridfs_file.md)
-  * [教程和文档](summary_note/doc_tutorial.md)
   * [查看当前MongoDB信息](summary_note/check_mongo_info.md)
   * [连接远程MongoDB的方式](summary_note/connect_remote_mongo.md)
 * [坑](pitfall/README.md)
@@ -36,4 +35,5 @@
   * [Cursor not found](pitfall/cursor_not_found.md)
   * [参数id是ObjectId对象而不是id字符串](pitfall/para_is_objectid.md)
 * [附录](appendix/README.md)
+  * [教程和文档](appendix/doc_tutorial.md)
   * [参考资料](appendix/reference.md)

@@ -1,6 +1,8 @@
 # GUI工具
 
 * `MongoDB Compass`
+  * Logo
+    * ![mongodb_logo](../../../assets/img/mongodb_compass_logo.png)
   * 特点
     * 官方出品
     * 免费
@@ -12,6 +14,8 @@
     * [MongoDB Compass — MongoDB Compass stable](https://docs.mongodb.com/compass/current/)
 * `Robot 3T`
   * 旧称：`Robomongo`
+  * Logo
+    * ![robomongo_logo](../../../assets/img/robomongo_logo.png)
   * 特点
     * 免费
     * 功能够用
@@ -32,6 +36,15 @@
   * 官网
     * Github
       * [dboissier/mongo4idea: MongoDB integration in Intellij](https://github.com/dboissier/mongo4idea)
+* `MMS`=`Mongo Management Studio`
+  * 截图
+    * ![mongodb_gui_mongo_management_studio](../../../assets/img/mongodb_gui_mongo_management_studio.png)
+  * 特点
+    * 号称支持`GridFS`
+      * 但是支持的不完美
+        * 不支持写入
+  * 官网
+    * [Mongo Management Studio - the professional MongoDB GUI](http://mms.litixsoft.de)
 * `NoSQLBooster`
   * 有免费版
     * 也有收费版

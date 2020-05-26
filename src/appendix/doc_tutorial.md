@@ -32,6 +32,26 @@
   * [Aggregation — MongoDB Manual 3.4](https://docs.mongodb.com/manual/aggregation/)
 * Driver的
   * [MongoDB Drivers and Client Libraries — MongoDB Manual 3.6](https://docs.mongodb.com/manual/applications/drivers/)
+* 用户和权限认证
+  * Authentication
+    * [Authentication — MongoDB Manual 3.6](https://docs.mongodb.com/manual/core/authentication/)
+    * [authenticate — MongoDB Manual 3.6](https://docs.mongodb.com/manual/reference/command/authenticate/#dbcmd.authenticate)
+  * Users
+    * [Users — MongoDB Manual 3.6](https://docs.mongodb.com/manual/core/security-users/#user-authentication-database)
+  * 权限
+    * RBAC
+      * [Role-Based Access Control — MongoDB Manual 3.6](https://docs.mongodb.com/manual/core/authorization/)
+    * 角色
+      * [Built-In Roles — MongoDB Manual 3.6](https://docs.mongodb.com/manual/reference/built-in-roles/#built-in-roles)
+      * [User-Defined Roles — MongoDB Manual 3.6](https://docs.mongodb.com/manual/core/security-user-defined-roles/#user-defined-roles)
+      * [grantRolesToUser — MongoDB Manual 3.6](https://docs.mongodb.com/manual/reference/command/grantRolesToUser/#dbcmd.grantRolesToUser)
+  * Resource
+    * [Resource Document — MongoDB Manual 3.6](https://docs.mongodb.com/manual/reference/resource-document/)
+  * 新建用户
+    * [createUser — MongoDB Manual 3.6](https://docs.mongodb.com/manual/reference/command/createUser/#dbcmd.createUser)
+
+
+
 
 ## 第三方资料
 

@@ -1,5 +1,34 @@
 # MongoDB的Server端
 
+## 启动本地MongoDB服务
+
+* 对于普通安装的MongoDB
+
+直接在终端中运行：
+
+```bash
+mongod
+```
+
+* 对于安装的是mongodb-community
+
+如果Mac中安装的MongoDB是`mongodb-community`，那么用：
+
+```bash
+brew services start mongodb-community
+```
+
+以及，关于MongoDB服务端的其他常见管理方式有：
+* 启动：`brew services start mongodb-community`
+* 停止：`brew services stop mongodb-community`
+* 重启：`brew services restart mongodb-community`
+* 查看状态：
+    * `brew services list`
+        * 如何确定已运行：看到`mongodb-community`是`started`
+    * 用`ps`
+        * `ps -ef | grep mongod`
+        * `ps aux | grep mongod`
+            * -》有输出`mongod`
 
 ## 配置
 
@@ -30,36 +59,6 @@ storage:
 ```
 
 表示数据库存放位置是：`/var/lib/mongo`
-
-## 启动本地MongoDB服务
-
-* 对于普通安装的MongoDB
-
-直接在终端中运行：
-
-```bash
-mongod
-```
-
-* 对于安装的是mongodb-community
-
-如果Mac中安装的MongoDB是`mongodb-community`，那么用：
-
-```bash
-brew services start mongodb-community
-```
-
-以及，关于MongoDB服务端的其他常见管理方式有：
-* 启动：`brew services start mongodb-community`
-* 停止：`brew services stop mongodb-community`
-* 重启：`brew services restart mongodb-community`
-* 查看状态：
-    * `brew services list`
-        * 如何确定已运行：看到`mongodb-community`是`started`
-    * 用`ps`
-        * `ps -ef | grep mongod`
-        * `ps aux | grep mongod`
-            * -》有输出`mongod`
 
 ## 启动远程服务器中的MongoDB服务
 

@@ -54,7 +54,15 @@ MongoDB支持 `基于用户权限的访问控制=`RBAC`=`Role-Based Access Contr
             * usersInfo
             * 等等
 
-后来想到一个比喻：
+## 认证Authentication和授权Authorization
+
+官网总结：
+
+> **Authentication** verifies the identity of a user
+> 
+> **Authorization** determines the verified user’s access to resources and operations
+
+自己想到的比喻：
 
 * Authentication=认证=识别用户（的身份）：是否是之前添加过（认识的）的用户，否则不让进
     * 就像要进去一间屋子，需要一把钥匙
@@ -75,14 +83,18 @@ MongoDB支持 `基于用户权限的访问控制=`RBAC`=`Role-Based Access Contr
         * Python
             * pymongo
                 * MongoClient初始化时传递对应参数即可
-                    * mongoClient = MongoClient(
-                    *     host=“11.22.33.44",
-                    *     port=27017,
-                    *     username=“usr",
-                    *     password=“pwd"
-                    * )
+                    ```python
+                    mongoClient = MongoClient(
+                        host="11.22.33.44",
+                        port=27017,
+                        username="usr",
+                        password="pwd"
+                    )
+                    ```
                 * 或者是用Mongo URI，比如：
-                  * `mongodb://usr:pwd@11.22.33.44:27017/dbName`
+                    ```bash
+                    mongodb://usr:pwd@11.22.33.44:27017/dbName
+                    ```
 * Authorization=授权=判断用户能干嘛：针对哪个数据库，有哪些操作权限
     * 就像进了一间屋子，到底能进哪间房，且每间房里只能允许能干什么事
         * 不能进别的房间，进了允许进的房间后，也不能干不允许干的事

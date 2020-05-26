@@ -1,5 +1,9 @@
 # MongoDB Compass
 
+TODO:
+
+* [【已解决】MongoDB Compass中如何快速高效地刷新数据](http://www.crifan.com/mongo_compass_fast_effective_reload_refresh_latest_data%0A)
+
 ## 下载和安装MongoDB Compass
 
 根据官网介绍
