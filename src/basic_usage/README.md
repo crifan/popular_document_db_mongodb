@@ -1,11 +1,11 @@
-# 基本使用
+# 基本用法
 
-安装好了MongoDB后，接着就是去搞清楚如何去操作MongoDB。
+安装好了MongoDB后，接下来去搞清楚如何操作MongoDB。
 
-使用MongoDB的基本逻辑都是：
+操作和使用MongoDB的基本逻辑都是：
 
 * 启动MongoDB的服务端
-* 使用某个Client去操作MongoDB
+* 用某种Client去操作MongoDB
   * 根据类型分，常见Client有3种方式
     * 命令行
       * MongoDB自带：`mongo shell`

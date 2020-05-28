@@ -28,9 +28,75 @@ https://downloads.mongodb.com/compass/mongodb-compass-1.14.5-darwin-x64.dmg
 
 ![mongodb_compass_version](../../../assets/img/mongodb_compass_version.png)
 
-## 实际使用效果
+## 基本使用
+
+打开后，进入连接数据库页：
+
+![mongodb_compass_connect_to_host](../../../assets/img/mongodb_compass_connect_to_host.png)
+
+点击连接后，进入数据库列表页：
+
+### 创建数据库和集合
+
+![mongodb_compass_create_database](../../../assets/img/mongodb_compass_create_database.png)
+
+![mongodb_compass_db_collection_name](../../../assets/img/mongodb_compass_db_collection_name.png)
+
+![mongodb_compass_db_list](../../../assets/img/mongodb_compass_db_list.png)
+
+![mongodb_compass_collection_list](../../../assets/img/mongodb_compass_collection_list.png)
+
+### 写入数据
+
+点击`INSERT DOCUMENT`：
+
+![mongodb_compass_click_insert_document](../../../assets/img/mongodb_compass_click_insert_document.png)
+
+会出现编辑数据的弹框：
+
+![mongodb_compass_insert_document_popup](../../../assets/img/mongodb_compass_insert_document_popup.png)
+
+输入对应的数据的`key`和`value`，如果想要新增字段，则点击左边的 `加号` ➕，会弹出 `Add Field after xxx`：
+
+![mongodb_compass_insert_key_value_str](../../../assets/img/mongodb_compass_insert_key_value_str.png)
+
+数据的类型，除了默认的`String`，还支持其他类型，比如`Array`数组：
+
+![mongodb_compass_insert_array](../../../assets/img/mongodb_compass_insert_array.png)
+
+分别输入数组的每项的值后，点击`INSERT`：
+
+![mongodb_compass_input_array_values](../../../assets/img/mongodb_compass_input_array_values.png)
+
+即可返回列表页，看到刚插入的数据：
+
+![mongodb_compass_inserted_new_document](../../../assets/img/mongodb_compass_inserted_new_document.png)
+
+### 删除数据库
+
+![mongodb_compass_drop_database](../../../assets/img/mongodb_compass_drop_database.png)
+
+## 好用之处
+
+### 直接编辑内容
 
 截图举例：
+
+![mongodb compass edit in place](../../../assets/img/mongodb_compass_edit_in_place.png)
+
+### 字段可以很方便的折叠和展开
+
+点击每条记录前面的箭头：
+
+![mongodb key can expand](../../../assets/img/mongodb_compass_key_can_expand.png)
+
+即可展开所有字段：
+
+![mongodb expand all info](../../../assets/img/mongodb_compass_expanded_all_info.png)
+
+再次点击，即可缩回。
+
+## 其他实际使用效果举例
 
 ![mongodb_compass_screenshot_1](../../../assets/img/mongodb_compass_screenshot_1.png)
 
@@ -83,23 +149,3 @@ https://downloads.mongodb.com/compass/mongodb-compass-1.14.5-darwin-x64.dmg
 ### Query History
 
 ![mongodb_compass_guide_11](../../../assets/img/mongodb_compass_guide_11.png)
-
-## 好用之处
-
-### 直接编辑内容
-
-截图举例：
-
-![mongodb compass edit in place](../../../assets/img/mongodb_compass_edit_in_place.png)
-
-### 字段可以很方便的折叠和展开
-
-点击每条记录前面的箭头：
-
-![mongodb key can expand](../../../assets/img/mongodb_compass_key_can_expand.png)
-
-即可展开所有字段：
-
-![mongodb expand all info](../../../assets/img/mongodb_compass_expanded_all_info.png)
-
-再次点击，即可缩回。

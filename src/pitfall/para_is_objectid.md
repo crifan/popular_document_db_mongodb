@@ -1,4 +1,4 @@
-# 参数id是ObjectId对象而不是id字符串
+# 参数_id是ObjectId对象而不是字符串
 
 直接说具体的坑是：Pymongo中的很多函数，比如exists等，传入的参数id是ObjectId对象而不是id的字符串
 

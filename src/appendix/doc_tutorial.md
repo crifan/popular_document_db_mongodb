@@ -50,9 +50,6 @@
   * 新建用户
     * [createUser — MongoDB Manual 3.6](https://docs.mongodb.com/manual/reference/command/createUser/#dbcmd.createUser)
 
-
-
-
 ## 第三方资料
 
 官网的（部分完成的）中文翻译：
@@ -74,21 +71,3 @@ Mongo Shell的资料：
 * 中文
   * [mongo shell — MongoDB Manual 3.4](http://www.mongoing.com/docs/mongo.html)
     * 注：翻译未必是完整的，且不一定是最新版本
-
-## PyMongo资料
-
-官网：
-
-* 旧
-  * PyMongo教程
-    * [Tutorial — PyMongo 3.5.1 documentation](http://api.mongodb.com/python/current/tutorial.html)
-  * API概览
-    * [API Documentation — PyMongo 3.6.1 documentation](http://api.mongodb.com/python/current/api/index.html)
-  * Mongo的Client
-    * [mongo_client – Tools for connecting to MongoDB — PyMongo 3.6.1 documentation](http://api.mongodb.com/python/current/api/pymongo/mongo_client.html#pymongo.mongo_client.MongoClient)
-* 最新：readthedocs.io
-  * [PyMongo 3.10.1 Documentation — PyMongo 3.10.1 documentation](https://pymongo.readthedocs.io/en/stable/)
-
-第三方：
-
-* [nummy/pymongo-tutorial-cn: pymongo中文教程](https://github.com/nummy/pymongo-tutorial-cn)
