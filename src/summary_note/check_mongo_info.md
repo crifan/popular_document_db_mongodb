@@ -122,3 +122,19 @@ security:
 
 * 日志文件：`/var/log/mongodb/mongod.log`
 * 数据文件（路径）：`/var/lib/mongo`
+
+## 从当前运行的MongoDB找到conf配置路径
+
+* 前提：当前mongodb（服务端`mongod`）正在运行
+* 目的：想要找到系统中MongoDB的配置文件所在位置
+  * 配置文件一般是`mongod.conf`
+* 解决方案
+  * 通过查看进程详情中可以看到conf配置文件路径
+    * 举例
+      ```bash
+      crifanli@crifanlideMac  /  ps aux | grep mongod
+      crifanli          8712   0.0  0.0  4258648    208 s000  R+    1:10上午   0:00.00 grep --color=auto --exclude-dir=.bzr --exclude-dir=CVS --exclude-dir=.git --exclude-dir=.hg --exclude-dir=.svn --exclude-dir=.idea --exclude-dir=.tox mongod
+      crifanli          8676   0.0  1.3  5524376  40376   ??  S     1:05上午   0:01.89 /usr/local/opt/mongodb-community/bin/mongod --config /usr/local/etc/mongod.conf
+      ```
+      * 对应的是：
+        * `/usr/local/etc/mongod.conf`

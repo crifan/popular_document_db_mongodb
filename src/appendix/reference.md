@@ -21,6 +21,8 @@
 * 【已解决】Python的MongoDB的Pymongo中实现多个正则条件的组合搜索
 * 【已解决】Python的MongoDB的pymongo中搜索查询支持regex正则和多个条件组合和字段嵌套和列表字段
 * 【已解决】Python的MongoDB的Pymongo中搜索列表字段中是否包含某个列表值中任何一个以及正则匹配部分内容
+* 【已解决】Win中Robot 3T访问VMWare中macOS中MongoDB报错：Network is unreachable Reason couldn't connect to server connection attempt failed SocketException
+* 【已解决】Win中尝试用Robot 3T连接和操作VMWare中macOS中MongoDB
 * 
 * [【已解决】Mongo中让搜索支持不区分大小写](http://www.crifan.com/mongodb_search_support_case_insensitive)
 * [【已解决】Pymongo出错：pymongo.errors.OperationFailure: Authentication failed](https://www.crifan.com/pymongo_errors_operationfailure_authentication_failed)

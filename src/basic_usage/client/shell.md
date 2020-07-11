@@ -151,7 +151,7 @@ db.crifanDemo.findAndModify(      db.crifanDemo.findOneAndDelete(   db.crifanDem
 再去新增一条数据：
 
 ```bash
-> db.crifanDemo.insertOne({"company": "fibodt"});
+> db.crifanDemo.insertOne({"company": "company_name"});
 {
 	"acknowledged" : true,
 	"insertedId" : ObjectId("5ecd08831d1e7cfaa2e10520")
@@ -163,7 +163,7 @@ db.crifanDemo.findAndModify(      db.crifanDemo.findOneAndDelete(   db.crifanDem
 ```bash
 > db.crifanDemo.find()
 { "_id" : ObjectId("5ecd08641d1e7cfaa2e1051f"), "name" : "crifan" }
-{ "_id" : ObjectId("5ecd08831d1e7cfaa2e10520"), "company" : "fibodt" }
+{ "_id" : ObjectId("5ecd08831d1e7cfaa2e10520"), "company" : "company_name" }
 ```
 
 `find`也支持参数查找，比如：
