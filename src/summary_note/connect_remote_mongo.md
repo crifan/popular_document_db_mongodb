@@ -31,7 +31,7 @@ connecting to: 127.0.0.1:32018/test
 
 ```bash
 use gridfs
-db.auth("gridfs”, "password")
+db.auth("gridfs", "password")
 ```
 
 或者直接：
