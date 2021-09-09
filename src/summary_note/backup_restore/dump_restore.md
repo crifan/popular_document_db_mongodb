@@ -1,8 +1,61 @@
 # `mongodump`和`mongorestore`
 
-## mongodump备份
+概述：
 
-用法：
+* **mongodump**
+  * 导出整个数据库(`db`)
+    ```bash
+    mongodump -d databaseName -o outputFolder
+    ```
+    * 输出目录如果是：当前目录`.`
+      ```bash
+      mongodump -d databaseName -o .
+      ```
+  * 导出数据库(`db`)中某个集合(`Collection`)=`子表`
+    ```bash
+    mongodump -d databaseName -c CollectionName -o outputFolder
+    ```
+    * 输出目录如果是：当前目录`.`
+      ```bash
+      mongodump -d databaseName -c CollectionName -o .
+      ```
+  * 其他说明
+    * 导出的单个collection文件名一般是`collectionName.bson`和`collectionName.metadata.json`
+* **mongorestore**
+  * 恢复（导入）某个目录下的某个数据库(`db`)中的所有的集合(`collection`)
+    ```bash
+    mongorestore -d databaseName ./localSubFoler
+    ```
+    * 说明：当前目录`localSubFoler`中有一个或多个`*.bson`(以及对应的`*.metadata.json`)
+    * 举例
+      ```bash
+      mongorestore -d storybook ./storybook
+      ```
+  * 恢复（导入）某个数据库(`db`)中的单个集合(`collection`)
+    ```bash
+    mongorestore -d databaseName -c CollectionName subFolder/someCollection.bson
+    ```
+    * 注：mongorestore从文件导入数据的话，**不支持JSON**文件，**只支持BSON**文件
+      * 且是用mongodump导出的BSON文件
+    * 举例
+      ```bash
+      mongorestore -d storybook -c lexile ./storybook/lexile.bson
+      ```
+* 通用参数
+  * 额外指定`host`和`port`
+    * 举例
+      ```bash
+      mongorestore -h localhost --port 32018 -d storybook ./storybook
+      ```
+  * 额外指定（对应数据库和表的）`用户名`和`密码`
+    * 举例
+      ```bash
+      mongorestore -h localhost --port 32018 -u storybook -p yourPassword -d storybook ./storybook
+      ```
+
+详解：
+
+## mongodump备份
 
 * 导出 本地MongoDB 的某表到当前文件夹
   * `mongodump -d storybook -o .`
@@ -136,19 +189,6 @@ output options:
 
 ## mongorestore恢复
 
-用法：
-
-* 从 某个文件夹 导入某个表 到 本地MongoDB
-  * `mongorestore -d exercise ./exercise`
-  * `mongorestore -d evaluation ./evaluation`
-  * `mongorestore -d storybook ./storybook`
-* 从 某个文件夹 导入某个表 到 本地MongoDB，且指定host和port
-  * `mongorestore -h localhost --port 32018 -u storybook -p pwd -d storybook ./storybook`
-* 从 某个文件 导入某个表 到 MongoDB
-  * `mongorestore -d storybook -c lexile ./storybook/lexile.bson`
-    * 注：mongorestore从文件导入数据的话，**不支持JSON**文件，**只支持BSON**文件
-      * 且是用mongodump导出的BSON文件
-
 举例：
 
 * 从某个目录，导入整个database：
@@ -269,4 +309,3 @@ total 416536
 2018-10-30T13:59:22.629+0800    finished restoring storybook.main (51785 documents)
 2018-10-30T13:59:22.629+0800    done
 ```
-

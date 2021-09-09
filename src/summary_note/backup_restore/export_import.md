@@ -56,8 +56,3 @@ crifanli@crifanlideMac  /Volumes/VMware Shared Folders/share_macOS  mongoi
 Win中（能连接到macOS中MongoDB的）mongo的GUI客户端`Robot 3T`中，刷新后即可看到导入的数据：
 
 ![win_robot_3t_see_mongo_data](../../assets/img/win_robot_3t_see_mongo_data.png)
-
-心得：
-
-* `mongoexport`和`mongoimport`：尤其适合**单个database的单个collection**的数据备份和恢复
-* `mongodump`和`mongorestore`：适合**整个某database**，甚至**所有database**的数据的备份和恢复

@@ -21,12 +21,19 @@
       ]
     },
     "sitemap-general": {
-      "prefix": "https://book.crifan.com/gitbook/popular_document_db_mongodb/website/"
+      "prefix": "https://book.crifan.com/books/popular_document_db_mongodb/website/"
     },
     "toolbar-button": {
-      "url": "http://book.crifan.com/books/popular_document_db_mongodb/pdf/popular_document_db_mongodb.pdf",
+      "url": "https://book.crifan.com/books/popular_document_db_mongodb/pdf/popular_document_db_mongodb.pdf",
       "icon": "fa-file-pdf-o",
       "label": "下载PDF"
+    },
+    "google-adsense": {
+      "ads": [
+        {
+          "client": "ca-pub-6626240105039250"
+        }
+      ]
     },
     "callouts": {
       "showTypeInHeader": false
@@ -106,6 +113,7 @@
     }
   },
   "plugins": [
+    "google-adsense",
     "theme-comscore",
     "anchors",
     "-lunr",

@@ -105,4 +105,5 @@
 * [【已解决】用PyCharm写Python的MongoDB代码并调试](http://www.crifan.com/pycharm_write_python_mongodb_code_and_debug)
 * [【已解决】配置mongod以允许内网其他服务器访问mongo服务](http://www.crifan.com/config_mongod_allow_internal_network_other_server_access_mongo_service)
 * [【已解决】PyCharm中安装MongoDB的插件：mongo4idea](http://www.crifan.com/pycharm_install_mongo_plugin_mongo4idea)
+* [mongodump — MongoDB Database Tools](https://docs.mongodb.com/database-tools/mongodump/)
 * 

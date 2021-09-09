@@ -1,7 +1,7 @@
 # 主流文档型数据库：MongoDB
 
-* 最新版本：`v1.2`
-* 更新时间：`20200808`
+* 最新版本：`v1.3`
+* 更新时间：`20200909`
 
 ## 简介
 
@@ -21,14 +21,14 @@
 
 ### 在线浏览
 
-* [主流文档型数据库：MongoDB book.crifan.com](http://book.crifan.com/books/popular_document_db_mongodb/website)
+* [主流文档型数据库：MongoDB book.crifan.com](https://book.crifan.com/books/popular_document_db_mongodb/website)
 * [主流文档型数据库：MongoDB crifan.github.io](https://crifan.github.io/popular_document_db_mongodb/website)
 
 ### 离线下载阅读
 
-* [主流文档型数据库：MongoDB PDF](http://book.crifan.com/books/popular_document_db_mongodb/pdf/popular_document_db_mongodb.pdf)
-* [主流文档型数据库：MongoDB ePub](http://book.crifan.com/books/popular_document_db_mongodb/epub/popular_document_db_mongodb.epub)
-* [主流文档型数据库：MongoDB Mobi](http://book.crifan.com/books/popular_document_db_mongodb/mobi/popular_document_db_mongodb.mobi)
+* [主流文档型数据库：MongoDB PDF](https://book.crifan.com/books/popular_document_db_mongodb/pdf/popular_document_db_mongodb.pdf)
+* [主流文档型数据库：MongoDB ePub](https://book.crifan.com/books/popular_document_db_mongodb/epub/popular_document_db_mongodb.epub)
+* [主流文档型数据库：MongoDB Mobi](https://book.crifan.com/books/popular_document_db_mongodb/mobi/popular_document_db_mongodb.mobi)
 
 ## 版权说明
 
@@ -37,3 +37,9 @@
 ## 鸣谢
 
 感谢我的老婆**陈雪**的包容理解和悉心照料，才使得我`crifan`有更多精力去专注技术专研和整理归纳出这些电子书和技术教程，特此鸣谢。
+
+## 更多其他电子书
+
+本人`crifan`还写了其他`100+`本电子书教程，感兴趣可移步至：
+
+[crifan/crifan_ebook_readme: Crifan的电子书的使用说明](https://github.com/crifan/crifan_ebook_readme)
