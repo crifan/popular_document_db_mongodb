@@ -1,6 +1,6 @@
 {
   "latestVersion": "v1.3",
-  "lastUpdate": "20200909",
+  "lastUpdate": "20200910",
   "gitRepoName": "popular_document_db_mongodb",
   "bookName": "主流文档型数据库：MongoDB",
   "bookDescription": "介绍主流文档型关系数据库MongoDB的起源；如何安装；基本的使用方法，包括如何启动服务端和如何用shell、GUI图形界面工具、代码调用API接口等方式去Client端的使用；以及部分高级用法，包括IP限制、用户和权限等；总结各种心得，包括pymongo的各种方面，备份和回复，如何新建空数据库和集合，如何更新已有数据，如何进行正则、列表、嵌套等高级搜索查询，如何使用GridFS保存二进制文件，以及一些常用教程和文档；总结出常见的各种坑及解决办法。"

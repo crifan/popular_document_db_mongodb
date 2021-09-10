@@ -57,6 +57,30 @@
 
 ## mongodump备份
 
+某次导出的命令：
+
+```bash
+  master  mongodump -d shortLink -c gameShortLink -o .
+2021-09-10T08:58:12.258+0800	writing shortLink.gameShortLink to shortLink/gameShortLink.bson
+2021-09-10T08:58:12.306+0800	done dumping shortLink.gameShortLink (900 documents)
+  master  mongodump -d shortLink -c parsedPureShortLink -o .
+2021-09-10T08:58:21.449+0800	writing shortLink.parsedPureShortLink to shortLink/parsedPureShortLink.bson
+2021-09-10T08:58:21.451+0800	done dumping shortLink.parsedPureShortLink (14 documents)
+```
+
+导出后的文件：
+```bash
+  master  ll
+total 0
+drwxr-xr-x  6 limao  1748468295   192B  9 10 08:58 shortLink
+  master  ll shortLink
+total 16224
+-rw-r--r--  1 limao  1748468295   7.8M  9 10 08:58 gameShortLink.bson
+-rw-r--r--  1 limao  1748468295   871B  9 10 08:58 gameShortLink.metadata.json
+-rw-r--r--  1 limao  1748468295   131K  9 10 08:58 parsedPureShortLink.bson
+-rw-r--r--  1 limao  1748468295   223B  9 10 08:58 parsedPureShortLink.metadata.json
+```
+
 * 导出 本地MongoDB 的某表到当前文件夹
   * `mongodump -d storybook -o .`
 * 导出 本地MongoDB 某表中某集合到当前文件夹，且指定host和port
