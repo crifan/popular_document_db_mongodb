@@ -51,3 +51,35 @@ WriteResult({ "nMatched" : 883, "nUpserted" : 0, "nModified" : 883 })
         modified_count = updateResult.modified_count
         logging.debug("matched_count=%s, modified_count=%s", matched_count, modified_count)
 ```
+
+## Python
+
+### PyMongo
+
+#### 更新单条数据的整个值
+
+MongoDB中，想要Python的pymongo中，实现（除了_id不变外的）单个项目，单条数据的整个值的替换：
+
+代码：
+
+```python
+            mongoCollection.update_one(
+                {"_id": oldMongoId},
+                {'$set': newValueDict},
+                upsert=False,
+            )
+```
+
+举例：
+
+```python
+eachFailedItem = mongoCollectionShortlink.find(queryDict)
+
+oldMongoId = eachFailedItem.pop("_id", None)
+
+mongoCollectionShortlink.update_one(
+    {"_id": oldMongoId},
+    {'$set': newRespResult},
+    upsert=False,
+)
+```

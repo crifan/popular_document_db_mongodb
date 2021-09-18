@@ -1,12 +1,8 @@
 # 参考资料
 
+* 【已解决】MongoDB的Pymongo中如何更新单条纪录的整个值
 * 【已解决】MongoDB版本区别：Community vs Enterprise
 * 【记录】mac搭建开发环境：安装最新版MongoDB
-*  [【已解决】Python的Flask中pymysql中mysql返回分页查询结果](http://www.crifan.com/python_flask_pymysql_mysql_returns_paged_query_results)
-*  [【已解决】Pymongo中新增插入记录](http://www.crifan.com/new_insertion_record_in_pymongo)
-*  [【已解决】Python的pymongo中根据指定字段的时间范围去查询数据且排序](http://www.crifan.com/python_pymongo_queries_data_based_on_the_time_range_of_the_specified_field_and_sorts)
-* 【或许解决】Python的Pymongo中gridfs文件去更新保存metadata信息
-* [【已解决】mongoimport/mongoexport和mongodump/mongorestore的区别](http://www.crifan.com/mongoimport_mongoexport_vs_mongodump_mongorestore)
 * 【已解决】从MongoDB数据库中导出数据
 * 【已解决】把json数据恢复导入到本地MongoDB数据库的某个集合中
 * 【已解决】重新将本地MongoDB数据storybook导入到在线环境
@@ -23,7 +19,13 @@
 * 【已解决】Python的MongoDB的Pymongo中搜索列表字段中是否包含某个列表值中任何一个以及正则匹配部分内容
 * 【已解决】Win中Robot 3T访问VMWare中macOS中MongoDB报错：Network is unreachable Reason couldn't connect to server connection attempt failed SocketException
 * 【已解决】Win中尝试用Robot 3T连接和操作VMWare中macOS中MongoDB
+* 【规避解决】MongoDB Compass中如何给集合Collection改名
 * 
+*  [【已解决】Python的Flask中pymysql中mysql返回分页查询结果](http://www.crifan.com/python_flask_pymysql_mysql_returns_paged_query_results)
+*  [【已解决】Pymongo中新增插入记录](http://www.crifan.com/new_insertion_record_in_pymongo)
+*  [【已解决】Python的pymongo中根据指定字段的时间范围去查询数据且排序](http://www.crifan.com/python_pymongo_queries_data_based_on_the_time_range_of_the_specified_field_and_sorts)
+* 【或许解决】Python的Pymongo中gridfs文件去更新保存metadata信息
+* [【已解决】mongoimport/mongoexport和mongodump/mongorestore的区别](http://www.crifan.com/mongoimport_mongoexport_vs_mongodump_mongorestore) 
 * [【已解决】Mongo中让搜索支持不区分大小写](http://www.crifan.com/mongodb_search_support_case_insensitive)
 * [【已解决】Pymongo出错：pymongo.errors.OperationFailure: Authentication failed](https://www.crifan.com/pymongo_errors_operationfailure_authentication_failed)
 * [【已解决】MongoDB的MongoDB Compass中用正则进行模糊匹配字段](https://www.crifan.com/mongodb_compass_use_regex_to_approximate_match/)

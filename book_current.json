@@ -10,10 +10,10 @@
       ]
     },
     "sitemap-general": {
-      "prefix": "https://book.crifan.com/books/popular_document_db_mongodb/website/"
+      "prefix": "https://book.crifan.org/books/popular_document_db_mongodb/website/"
     },
     "toolbar-button": {
-      "url": "https://book.crifan.com/books/popular_document_db_mongodb/pdf/popular_document_db_mongodb.pdf"
+      "url": "https://book.crifan.org/books/popular_document_db_mongodb/pdf/popular_document_db_mongodb.pdf"
     }
   }
 }

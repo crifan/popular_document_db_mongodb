@@ -1,7 +1,7 @@
 # 主流文档型数据库：MongoDB
 
-* 最新版本：`v1.3`
-* 更新时间：`20200910`
+* 最新版本：`v2.0`
+* 更新时间：`20200918`
 
 ## 简介
 
@@ -21,18 +21,18 @@
 
 ### 在线浏览
 
-* [主流文档型数据库：MongoDB book.crifan.com](https://book.crifan.com/books/popular_document_db_mongodb/website)
+* [主流文档型数据库：MongoDB book.crifan.org](https://book.crifan.org/books/popular_document_db_mongodb/website)
 * [主流文档型数据库：MongoDB crifan.github.io](https://crifan.github.io/popular_document_db_mongodb/website)
 
 ### 离线下载阅读
 
-* [主流文档型数据库：MongoDB PDF](https://book.crifan.com/books/popular_document_db_mongodb/pdf/popular_document_db_mongodb.pdf)
-* [主流文档型数据库：MongoDB ePub](https://book.crifan.com/books/popular_document_db_mongodb/epub/popular_document_db_mongodb.epub)
-* [主流文档型数据库：MongoDB Mobi](https://book.crifan.com/books/popular_document_db_mongodb/mobi/popular_document_db_mongodb.mobi)
+* [主流文档型数据库：MongoDB PDF](https://book.crifan.org/books/popular_document_db_mongodb/pdf/popular_document_db_mongodb.pdf)
+* [主流文档型数据库：MongoDB ePub](https://book.crifan.org/books/popular_document_db_mongodb/epub/popular_document_db_mongodb.epub)
+* [主流文档型数据库：MongoDB Mobi](https://book.crifan.org/books/popular_document_db_mongodb/mobi/popular_document_db_mongodb.mobi)
 
 ## 版权说明
 
-此电子书教程的全部内容，如无特别说明，均为本人原创和整理。其中部分内容参考自网络，均已备注了出处。如有发现侵犯您版权，请通过邮箱联系我 `admin 艾特 crifan.com`，我会尽快删除。谢谢合作。
+此电子书教程的全部内容，如无特别说明，均为本人原创和整理。其中部分内容参考自网络，均已备注了出处。如有发现侵犯您版权，请通过邮箱联系我 `admin 艾特 crifan.org`，我会尽快删除。谢谢合作。
 
 ## 鸣谢
 
