@@ -119,13 +119,13 @@ fsCollection = GridFS(gridfsDb)
 
 * General
   * 截图：
-    * ![mongo4idea_config_general](../assets/img/mongo4idea_config_general.png)
+    * ![mongo4idea_config_general](../../assets/img/mongo4idea_config_general.png)
   * 文字：
     * Server url(s)：`47.96.131.109:32018`
     * User Database：`gridfs`
 * Authentication
   * 截图：
-    * ![mongo4idea_config_authentication](../assets/img/mongo4idea_config_authentication.png)
+    * ![mongo4idea_config_authentication](../../assets/img/mongo4idea_config_authentication.png)
   * 文字：
     * Username：`gridfs`
     * Password：`your_password`
@@ -134,4 +134,4 @@ fsCollection = GridFS(gridfsDb)
 
 即可成功连接：
 
-![mongo4idea_test_connection_successful](../assets/img/mongo4idea_test_connection_successful.png)
+![mongo4idea_test_connection_successful](../../assets/img/mongo4idea_test_connection_successful.png)

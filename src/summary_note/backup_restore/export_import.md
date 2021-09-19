@@ -6,6 +6,15 @@
 
 ## 举例
 
+### 把csv导入某个database的某个collection
+
+```bash
+mongoimport --db chandashi --collection manual --type csv --headerline --ignoreBlanks --file ./manual.csv
+```
+
+* 参数解释
+  * `--headerline`：csv的第一行是header头
+
 ### 导出数据库`evaluation`的集合`question`
 
 `mongoimport -d evaluation -c question --file questions_181219_2.json`

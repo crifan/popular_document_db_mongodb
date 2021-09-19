@@ -66,7 +66,7 @@ Unregistered Authentication Agent for unix-process:4637:8872553
 
 * 如果和我一样，没有root用户密码，则：reboot重启服务器
 * 有root密码：以mongod用户去停止mongo
-    * sudo -u mongod systemctl stop mongod
+  * sudo -u mongod systemctl stop mongod
 
 (2) 错误：getaddrinfo("112.4.64.141") failed: Name or service not known
 

@@ -1,5 +1,22 @@
 # 参考资料
 
+* 【已解决】MongoDB中如何从一个csv导入到某数据库下面的collection集合
+* 【记录】把本地已有历史全部短链数据导入到MongoDB数据库
+* 【已解决】pymongo中如何通过Python代码给集合reIndex重建索引
+* 【已解决】PyMongo中如何一次性创建多个index索引
+* 【已解决】MongoDB建索引报错：Index with name already exists with a different name full error
+* 【已解决】pymongo给MongoDB的集合建索引用是否background后台运行
+* 【已解决】用mongo的shell给MongoDB创建索引以提高查询速度
+* 【已解决】MongoDB中如何给嵌套的子字段建立索引
+* 【已解决】MongoDB是否能优化和如何优化find查询的速度
+* 【已解决】MongoDB Compass中如何删除index索引
+* 【已解决】MongoDB中如何用Python代码中创建索引
+* 【已解决】用MongoDB的mongo shell去删除集合Collection
+* 【已解决】MongoDB的Mongo的shell中查询特定条件的数据并删除
+* 【未解决】MongoDB中parsedGame.realGameName的查询找不到特定的值：映月星诀
+* 【已解决】短链解析游戏分类逻辑优化：边运行边MongoDB建索引
+* 【已解决】MongoDB中如何用Python代码中创建索引
+* 【已解决】pymongo如何运行mongo的shell中的命令
 * 【已解决】MongoDB的Pymongo中如何更新单条纪录的整个值
 * 【已解决】MongoDB版本区别：Community vs Enterprise
 * 【记录】mac搭建开发环境：安装最新版MongoDB
@@ -20,10 +37,13 @@
 * 【已解决】Win中Robot 3T访问VMWare中macOS中MongoDB报错：Network is unreachable Reason couldn't connect to server connection attempt failed SocketException
 * 【已解决】Win中尝试用Robot 3T连接和操作VMWare中macOS中MongoDB
 * 【规避解决】MongoDB Compass中如何给集合Collection改名
+* 【记录】MongoDB Compass中编辑短链解析结果数据：删除修改新增字段和值
+* 【已解决】MongoDB建索引报错：Index with name already exists with a different name full error
 * 
-*  [【已解决】Python的Flask中pymysql中mysql返回分页查询结果](http://www.crifan.com/python_flask_pymysql_mysql_returns_paged_query_results)
-*  [【已解决】Pymongo中新增插入记录](http://www.crifan.com/new_insertion_record_in_pymongo)
-*  [【已解决】Python的pymongo中根据指定字段的时间范围去查询数据且排序](http://www.crifan.com/python_pymongo_queries_data_based_on_the_time_range_of_the_specified_field_and_sorts)
+* [【已解决】MongoDB Compass中如何快速高效地刷新数据](http://www.crifan.com/mongo_compass_fast_effective_reload_refresh_latest_data)
+* [【已解决】Python的Flask中pymysql中mysql返回分页查询结果](http://www.crifan.com/python_flask_pymysql_mysql_returns_paged_query_results)
+* [【已解决】Pymongo中新增插入记录](http://www.crifan.com/new_insertion_record_in_pymongo)
+* [【已解决】Python的pymongo中根据指定字段的时间范围去查询数据且排序](http://www.crifan.com/python_pymongo_queries_data_based_on_the_time_range_of_the_specified_field_and_sorts)
 * 【或许解决】Python的Pymongo中gridfs文件去更新保存metadata信息
 * [【已解决】mongoimport/mongoexport和mongodump/mongorestore的区别](http://www.crifan.com/mongoimport_mongoexport_vs_mongodump_mongorestore) 
 * [【已解决】Mongo中让搜索支持不区分大小写](http://www.crifan.com/mongodb_search_support_case_insensitive)
@@ -77,35 +97,12 @@
 * [MongoDB find() Method: Introduction & Query Examples | Studio 3T](https://studio3t.com/knowledge-base/articles/mongodb-find-method/)
 * [MongoDB Python Drivers — MongoDB Drivers](https://docs.mongodb.com/drivers/python)
 * [初尝node.js + Express + MongoDB + Vue.js 项目构建(2) - 个人文章 - SegmentFault](https://segmentfault.com/a/1190000009336888)
-* 
-
-## TODO 待整理
-
-* [【已解决】mongo命令行中如何删除文件](http://www.crifan.com/mongo_command_how_delete_file)
-* [【已解决】把本地的音频字幕等数据存储到远程服务器的MongoDB数据库中](http://www.crifan.com/local_audio_subtitle_file_store_remote_server_mongodb_database)
-* [【已解决】mongo中给普通数据库gridfs创建root的角色失败：Error couldn't add user No role named root@gridfs](http://www.crifan.com/mongodb_create_normal_gridfs_root_user_fail_error_couldnt_add_user_no_role_named_root_gridfs)
-* [【已解决】本地mongo shell中连接远程加了权限控制的mongoDB](http://www.crifan.com/local_mongodb_shell_connect_remote_added_authority_mongodb)
-* [【已解决】阿里云ECS服务器中已有的MongoDB的用户名密码和端口](http://www.crifan.com/aliyun_ecs_server_existed_mongodb_username_password_port)
-* [【未解决】尝试用Mongo Management Studio去实现导入文件到Mongo的gridfs且带metadata信息](http://www.crifan.com/trial_mongo_management_studio_import_file_to_gridfs_with_metadata_info)
-* [【已解决】确认服务器中MongoDB数据库是否有或已开启记录登录的日志](http://www.crifan.com/check_whether_mongodb_database_enabled_login_logging)
-* [【已解决】确认服务器中MongoDB数据库是否有或已开启记录登录的日志](http://www.crifan.com/check_whether_mongodb_database_enabled_login_logging)
-* [【已解决】MongoDB开启访问控制后currentOp出错：not authorized on admin to execute command](http://www.crifan.com/mongodb_enable_access_control_currentop_not_authorized_on_admin_to_execute_command)
-* 【已解决】给MongoDB数据库新建用户和权限
-* 【已解决】修改MongoDB的默认端口号27017为别的端口
-* [【已解决】mongo的shell中find返回多个有限个数的结果](http://www.crifan.com/mongodb_mongo_shell_find_limit_return_number)
-* [【已解决】公司Wi-Fi更换运营商导致IP变化导致远程Mongo连不上](http://www.crifan.com/company_wifi_ip_change_cause_remote_mongodb_connect_fail)
-* [【已解决】连接远程mongoDB失败：Failed to connect to after 5000ms milliseconds giving up](http://www.crifan.com/connect_remote_mongodb_failed_to_connect_to_after_5000ms_milliseconds_giving_up)
-* [【已解决】pymongo中用MongoClient去连接远程加了权限控制的mongoDB](http://www.crifan.com/pymongo_use_mongoclient_connect_remote_added_authorization_mongodb)
-* [【已解决】用PyCharm的MongoDB插件连接远程MongoDB数据库](http://www.crifan.com/pycharm_mongodb_plugin_connect_remote_mongodb_database)
-* [【已解决】MongoDB的用户的密码中包含@如何写URI](http://www.crifan.com/mongodb_username_password_contain_at_how_write_uri)
-* [【已解决】给MongoDB限制IP访问](http://www.crifan.com/mongodb_add_restrict_ip_access)
-* 【已解决】远程MongoDB新增dialog数据库并新增对应用户和权限
-* [【已解决】PyCharm连接远程添加security的authorization的MongoDB出错：com.mongodb.MongoCommandExceptions: Command failed with error 13](http://www.crifan.com/pycharm_connect_remote_security_authorization_mongodb_error_com_mongodb_mongocommandexceptions_command_failed_with_error_13)
-* [【已解决】Flask-PyMongo出错：RuntimeError Working outside of application context](http://www.crifan.com/flask_pymongo_runtimeerror_working_outside_of_application_context)
-* [【已解决】pymongo的count()出错：pymongo.errors.ServerSelectionTimeoutError timed out](http://www.crifan.com/pymongo_count_pymongo_errors_serverselectiontimeouterror_timed_out)
-* [【记录】通过阿里云ECS服务器安全组限制访问mongo的IP和端口](http://www.crifan.com/aliyun_ecs_security_group_limit_access_mongodb_ip_and_port)
-* [【已解决】用PyCharm写Python的MongoDB代码并调试](http://www.crifan.com/pycharm_write_python_mongodb_code_and_debug)
-* [【已解决】配置mongod以允许内网其他服务器访问mongo服务](http://www.crifan.com/config_mongod_allow_internal_network_other_server_access_mongo_service)
-* [【已解决】PyCharm中安装MongoDB的插件：mongo4idea](http://www.crifan.com/pycharm_install_mongo_plugin_mongo4idea)
 * [mongodump — MongoDB Database Tools](https://docs.mongodb.com/database-tools/mongodump/)
+* [collection – Collection level operations — PyMongo 3.12.0 documentation](https://pymongo.readthedocs.io/en/stable/api/pymongo/collection.html#pymongo.collection.Collection.create_index)
+* [reIndex — MongoDB Manual](https://docs.mongodb.com/manual/reference/command/reIndex/)
+* [collection – Collection level operations — PyMongo 3.12.0 documentation](https://pymongo.readthedocs.io/en/stable/api/pymongo/collection.html#pymongo.collection.Collection.index_information)
+* [Delete Documents — MongoDB Manual](https://docs.mongodb.com/manual/tutorial/remove-documents/)
+* [db.collection.drop() — MongoDB Manual](https://docs.mongodb.com/manual/reference/method/db.collection.drop/#mongodb-method-db.collection.drop)
+* [Index Builds on Populated Collections — MongoDB Manual](https://docs.mongodb.com/manual/core/index-creation/#std-label-index-build-process)
+* [create_index collection – Collection level operations — PyMongo 3.12.0 documentation](https://pymongo.readthedocs.io/en/stable/api/pymongo/collection.html#pymongo.collection.Collection.create_index)
 * 

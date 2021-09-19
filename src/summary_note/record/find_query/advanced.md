@@ -17,85 +17,85 @@
 先列出有哪些类型：
 
 * Comparison
-  * $eq
+  * `$eq`
     * Matches values that are equal to a specified value.
-  * $gt
+  * `$gt`
     * Matches values that are greater than a specified value.
-  * $gte
+  * `$gte`
     * Matches values that are greater than or equal to a specified value.
-  * $in
+  * `$in`
     * Matches any of the values specified in an array.
-  * $lt
+  * `$lt`
     * Matches values that are less than a specified value.
-  * $lte
+  * `$lte`
     * Matches values that are less than or equal to a specified value.
-  * $ne
+  * `$ne`
     * Matches all values that are not equal to a specified value.
-  * $nin
+  * `$nin`
     * Matches none of the values specified in an array.
 * Logical
-  * $and
+  * `$and`
     * Joins query clauses with a logical AND returns all documents that match the conditions of both clauses.
-  * $not
+  * `$not`
     * Inverts the effect of a query expression and returns documents that do not match the query expression.
-  * $nor
+  * `$nor`
     * Joins query clauses with a logical NOR returns all documents that fail to match both clauses.
-  * $or
+  * `$or`
     * Joins query clauses with a logical OR returns all documents that match the conditions of either clause.
 * Element
-  * $exists
+  * `$exists`
     * Matches documents that have the specified field.
-  * $type
+  * `$type`
     * Selects documents if a field is of the specified type.
 * Evaluation
-  * $expr
+  * `$expr`
     * Allows use of aggregation expressions within the query language.
-  * $jsonSchema
+  * `$jsonSchema`
     * Validate documents against the given JSON Schema.
-  * $mod
+  * `$mod`
     * Performs a modulo operation on the value of a field and selects documents with a specified result.
-  * $regex
+  * `$regex`
     * Selects documents where values match a specified regular expression.
-  * $text
+  * `$text`
     * Performs text search.
-  * $where
+  * `$where`
     * Matches documents that satisfy a JavaScript expression.
 * Geospatial
-  * $geoIntersects
+  * `$geoIntersects`
     * Selects geometries that intersect with a GeoJSON geometry. The 2dsphere index supports$geoIntersects.
-  * $geoWithin
+  * `$geoWithin`
     * Selects geometries within a bounding GeoJSON geometry. The 2dsphere and 2d indexes support $geoWithin.
-  * $near
+  * `$near`
     * Returns geospatial objects in proximity to a point. Requires a geospatial index. The 2dsphereand 2d indexes support $near.
-  * $nearSphere
+  * `$nearSphere`
     * Returns geospatial objects in proximity to a point on a sphere. Requires a geospatial index. The 2dsphere and 2d indexes support $nearSphere.
 * Array
-  * $all
+  * `$all`
     * Matches arrays that contain all elements specified in the query.
-  * $elemMatch
+  * `$elemMatch`
     * Selects documents if element in the array field matches all the specified $elemMatch conditions.
-  * $size
+  * `$size`
     * Selects documents if the array field is a specified size.
 * Bitwise
-  * $bitsAllClear
+  * `$bitsAllClear`
     * Matches numeric or binary values in which a set of bit positions all have a value of 0.
-  * $bitsAllSet
+  * `$bitsAllSet`
     * Matches numeric or binary values in which a set of bit positions all have a value of 1.
-  * $bitsAnyClear
+  * `$bitsAnyClear`
     * Matches numeric or binary values in which any bit from a set of bit positions has a value of 0.
-  * $bitsAnySet
+  * `$bitsAnySet`
     * Matches numeric or binary values in which any bit from a set of bit positions has a value of 1.
 * Comments
-  * $comment
+  * `$comment`
     * Adds a comment to a query predicate.
 * Projection Operators
-  * $
+  * `$`
     * Projects the first element in an array that matches the query condition.
-  * $elemMatch
+  * `$elemMatch`
     * Projects the first element in an array that matches the specified $elemMatch condition.
-  * $meta
+  * `$meta`
     * Projects the document’s score assigned during $text operation.
-  * $slice
+  * `$slice`
     * Limits the number of elements projected from an array. Supports skip and limit slices.
 
 可以根据需要选择合适的组合方式。
@@ -131,10 +131,11 @@ mainField.subFieldList.0
 ```
 
 而更加复杂的组合，可以用到：
+
 * `$size`
-    * 表示list的个数
+  * 表示list的个数
 * `$all`
-    * 表示所有的
+  * 表示所有的
 * `$elemMatch`
 
 即可。
@@ -175,7 +176,7 @@ mainField.subFieldList.0
       "option_image": ""
     }]
   }],
-。。。
+......
 ```
 
 想要通过子字段`sub_questions`的`options`的`option_text`之类的嵌套字段去搜索
@@ -231,14 +232,13 @@ grading
 
 发现搜索不到，所以结论是：此处正则搜索不支持`\d`数字
 
-
 #### 举例：用正则语法去搜索title
 
 `{"title": {"$regex": "Chicka Chicka .*"}}`
 
 可以搜到匹配的多个数据：
 
-![mongodb_compass_regex_search_title](../assets/img/mongodb_compass_regex_search_title.png)
+![compass_re_search_title](../../../assets/img/compass_re_search_title.png)
 
 #### 举例：多个字段同时正则搜索+嵌套搜索+列表字段搜索
 
@@ -339,6 +339,7 @@ grading
 ```
 
 想要搜索字段：
+
 * stem_text
 * audio_text
 * sub_questions的question_texts（这个列表）中的任何一个
@@ -415,7 +416,7 @@ grading
 
 即可搜索到要的内容：
 
-![re_search_beyond_compare_found_data](../assets/img/re_search_beyond_compare_found_data.png)
+![re_search_bc_found_data](../../../assets/img/re_search_bc_found_data.png)
 
 #### 举例：搜索题干类型题目中包含teach的题目
 

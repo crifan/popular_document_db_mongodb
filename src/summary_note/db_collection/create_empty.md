@@ -6,6 +6,8 @@
 
 具体做法：
 
+`mongo shell`中：
+
 ```bash
 use newDb
 db.newCollection.insert({"fakeKey": "fakeValue"})

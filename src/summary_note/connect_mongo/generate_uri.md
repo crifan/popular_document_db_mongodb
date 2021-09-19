@@ -1,4 +1,4 @@
-# 生成URI
+# PyMongo生成URI
 
 在开发期间，可能会涉及到，从配置中生成MongoDB的URI
 
